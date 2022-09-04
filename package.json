@@ -1,0 +1,23 @@
+{
+	"name": "personal-website-utd",
+	"version": "1.0.0",
+	"description": "my personal website",
+	"main": "index.js",
+	"scripts":
+	{
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "live-server --port=1336 --wait=1000"
+	},
+	"repository":
+	{
+		"type": "git",
+		"url": "git+https://github.com/paxgole/Collax-Base-Portfolio.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs":
+	{
+		"url": "https://github.com/paxgole/Collax-Base-Portfolio/issues"
+	},
+	"homepage": "https://github.com/paxgole/Collax-Base-Portfolio#readme"
+}

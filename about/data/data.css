@@ -1,0 +1,17 @@
+.Message
+{
+	display: block;
+	background: white;
+	border: var(--window-border);
+	border-radius: 9px;
+	color: var(--pastel-blue);
+    margin: 1%;
+}
+
+.Message p
+{
+    font-size: 1em;
+	margin: 30px;
+	display: block;
+    text-align: center;
+}

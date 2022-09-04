@@ -1,0 +1,36 @@
+.Resume
+{
+	display: block;
+	background: white;
+	border: var(--window-border);
+	border-radius: 9px;
+	color: var(--pastel-blue);
+    margin: 1%;
+}
+
+h1
+{
+    font-size: 3em;
+	margin: 30px;
+	display: block;
+}
+
+.EmbeddedResume
+{
+	margin: 2em;
+	display: block;
+}
+
+.EmbeddedResume iframe
+{
+	display: block;
+	border: none;
+}
+
+@media only screen and (max-width: 900px)
+{
+	h1
+	{
+		margin: 5%;
+	}
+}

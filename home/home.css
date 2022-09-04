@@ -1,0 +1,167 @@
+/* Bio Grid */
+
+.GridContainer
+{
+	display: grid; 
+	grid-template-columns: repeat(18, 1fr); 
+	grid-template-rows: .8fr .1fr 2fr; 
+	/* gap: 10px 10px; */
+
+	justify-self: center;
+	vertical-align: middle;
+}
+  
+.Title
+{
+	grid-area: 1 / 4 / 2 / 15;
+	display: inline;
+
+	background: white;
+	border: var(--window-border);
+	border-radius: 9px;
+	color: var(--pastel-blue);
+	filter: var(--window-drop-show);
+}
+
+.Title h1
+{
+	margin: 1%;
+	padding: 10px 40px 5px 40px;
+
+	font-size: 4.8vw;
+	font-weight: 500;
+	text-align: left;
+	text-shadow: var(--title-text-shadow);
+}
+
+.Title h1 .highlight
+{
+	color: white;
+    background-color: var(--pastel-blue);
+	padding: 2px;
+}
+
+.Title h3
+{
+	margin: 1%;
+	padding: 0px 40px 10px 40px;
+
+	font-size: 2vw;
+	color: var(--light-salmon-pink);
+	font-weight: 500;
+	text-align: left;
+}
+
+
+.Bio
+{
+	grid-area: 3 / 2 / 5 / 14;
+}
+
+.Bio p
+{
+	padding: 50px 60px;
+	white-space: pre-line;
+	margin: 1% 2% 1% 4%;
+
+	font-size: 1vw;
+	font-style: normal;
+	font-weight: 500;
+	text-align: justify;
+	line-height: 200%;
+
+	background: white;
+	border: var(--window-border);
+	border-radius: 9px;
+	color: var(--pastel-blue);
+	filter: var(--window-drop-show);
+}
+
+.Bio span
+{
+	font-family: var(--font-family-noto-emoji);
+	color: var(--firm-pastel-blue);
+	/* background-color: #9af3be9f; */
+}
+
+.Bio p i
+{
+	color: var(--light-salmon-pink);
+}
+
+.Bio p b
+{
+	color: var(--pastel-yellow);
+	font-style: italic;
+	font-weight: 400;
+}
+
+
+.Art
+{
+	grid-area: 1 / 12 / 4 / 18;
+	justify-self: center;
+	vertical-align: middle;
+	margin: 0% 10%;	
+	z-index: 1;
+}
+
+.Art img
+{
+	object-fit: contain;
+	width: 110%;
+	height:110%;
+}
+
+
+@media only screen and (max-width: 900px)
+{
+    .GridContainer
+	{
+		display: block;
+	}
+
+	.FooterBar ul
+	{
+		padding-inline-start: 0px;
+	}
+
+	.Title
+	{
+		display: block;
+		margin: 0% 3% 1% 3%;
+	}
+
+	.Title h1
+	{
+		text-shadow: none;
+		font-size: 9vw;
+		padding: 2% 2% 0% 2%;
+	}
+
+	.Title h3
+	{
+		text-align: right;
+		font-size: 4vw;
+		/* padding: 5px 20px 10px 0px; */
+	}
+
+	.Bio
+	{
+		display: block;
+		margin: 3%;
+	}
+
+	.Bio p
+	{
+		padding: 20px 30px;
+		margin: 0px;
+		font-size: 3.5vw;
+	}
+
+	.Art
+	{
+		display: none;
+	}
+
+}

@@ -1,0 +1,103 @@
+.Message
+{
+	display: block;
+	background: white;
+	border: var(--window-border);
+	border-radius: 9px;
+	color: var(--pastel-blue);
+    margin: 1%;
+}
+
+.Message p
+{
+    font-size: 1em;
+	margin: 30px;
+	display: block;
+    text-align: center;
+}
+
+.BlogContainer
+{
+    /* display: block; */
+	display: none;
+    background: white;
+	border: var(--window-border);
+	border-radius: 9px;
+	color: var(--pastel-blue);
+    margin: 1%;
+}
+
+.BlogBody
+{
+	display: grid;
+    grid-template-columns: 1.7fr 0.3fr;
+}
+
+
+.CurrentPost h1
+{
+    font-size: 3.5em;
+	margin: 2%;
+	display: block;
+}
+
+.CurrentPost h1 .Highlight
+{
+	color: white;
+    background-color: var(--pastel-blue);
+	padding: 2px;
+}
+
+.CurrentPost p
+{
+    font-size: 1em;
+    color: #5a6372;
+	margin: 2%;
+	display: block;
+}
+
+.PostList
+{
+	display: block;
+	align-content: center;
+	margin: 6%;
+}
+
+.Posts
+{
+	align-content: center;
+}
+
+.Posts ul
+{
+	list-style-type: circle;
+	padding-inline-start: 10px;
+}
+
+.Posts li
+{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 900px)
+{
+	.BlogContainer
+	{
+		margin: 2%;
+	}
+	.BlogBody
+	{
+		display: block;
+	}
+	.CurrentPost h1
+	{
+		font-size: 2em;
+	}
+	.PostList
+	{
+		display: block;
+	}
+	
+}
