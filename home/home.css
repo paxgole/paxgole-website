@@ -39,6 +39,7 @@
 	color: white;
     background-color: var(--pastel-blue);
 	padding: 2px;
+	/* font-weight: 700; */
 }
 
 .Title h3
@@ -48,7 +49,7 @@
 
 	font-size: 2vw;
 	color: var(--light-salmon-pink);
-	font-weight: 500;
+	font-weight: 520;
 	text-align: left;
 }
 
@@ -73,7 +74,7 @@
 	background: white;
 	border: var(--window-border);
 	border-radius: 9px;
-	color: var(--pastel-blue);
+	color: var(--common-text-gray);
 	filter: var(--window-drop-show);
 }
 
@@ -81,19 +82,21 @@
 {
 	font-family: var(--font-family-noto-emoji);
 	color: var(--firm-pastel-blue);
+	font-size: large;
 	/* background-color: #9af3be9f; */
 }
 
 .Bio p i
 {
 	color: var(--light-salmon-pink);
+	font-weight: 600;
 }
 
 .Bio p b
 {
 	color: var(--pastel-yellow);
 	font-style: italic;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 

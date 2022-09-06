@@ -4,7 +4,7 @@
 	background: white;
 	border: var(--window-border);
 	border-radius: 9px;
-	color: var(--pastel-blue);
+	color: var(--common-text-gray);
     margin: 1%;
 }
 
