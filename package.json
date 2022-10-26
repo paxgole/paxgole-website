@@ -11,13 +11,13 @@
 	"repository":
 	{
 		"type": "git",
-		"url": "git+https://github.com/paxgole/Collax-Base-Portfolio.git"
+		"url": "git+https://github.com/paxgole/paxgole-website.git"
 	},
 	"author": "",
 	"license": "ISC",
 	"bugs":
 	{
-		"url": "https://github.com/paxgole/Collax-Base-Portfolio/issues"
+		"url": "https://github.com/paxgole/paxgole-website/issues"
 	},
-	"homepage": "https://github.com/paxgole/Collax-Base-Portfolio#readme"
+	"homepage": "https://github.com/paxgole/paxgole-website#readme"
 }
